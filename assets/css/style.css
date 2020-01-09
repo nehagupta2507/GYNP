@@ -1,5 +1,17 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+ul{
+    list-style-type: none;
+}
+
 body {
-    padding-top: 70px;
     font-family: 'Lato',sans-serif;
     background-color:#343a40;
 }
@@ -9,16 +21,18 @@ body {
     min-height: 55px;
     padding: 15px 15px 5px;
 }
-.dropdown-menu{
-    background:#343a40;
-}
+
 
 .navbar{
     background:#343a40;
+    height: 10vh;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,.85);
+}
+.dropdown-menu{
+    background: rgba(255,255,255,.85);
 }
 
 .carousel-item img{
@@ -26,56 +40,15 @@ body {
     height: 90vh;
 }
 
-/* .carousel-item img{
-    width: 50vw;
-    height: 50vh;
-    margin: auto;
-    display: block;
-} */
-.about{
-        padding: 50px 20px;
-    }
-    .fab {
-        color: azure;
-    }
-
 #wrapper{
-    background-color: rgba(132, 199, 143, 0.8);
-    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    padding: 50px 50px;
 }
 
 #card{
-    background-color: rgba(132, 199, 143, 0.8);
+    /* background-color:  rgba(255, 255, 255, 0.5); */
     padding: 20px 20px;
-}
-
-.about h2{
-    font-size: 36px;
-    font-weight: bold;
-}
-
-.whatWeDo{
-    position: relative;
-    width: 100vh;
-    height: 100vh;
-
-}
-.impact{
-    position: relative;
-    width: 100vh;
-    height: 100vh;
-
-}
-.difference{
-    position: relative;
-    width: 100vh;
-    height: 100vh;
-
-}
-.contact{
-    position: relative;
-    width: 100vh;
-    height: 100vh;
 }
 
 #plx {
@@ -85,10 +58,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-}
-
-#volunteer{
-    background-color: #1A1A1D;
+    padding-top: 100px ;
+    padding-bottom: 100px;
 }
 
 .mission-icon{
@@ -108,7 +79,6 @@ body {
     margin:0 auto
 }
 .mission-icon h4{
-    /* font-family:; */
     font-size:15px;
     font-weight:normal;
     line-height:1;
@@ -116,37 +86,29 @@ body {
     text-transform:uppercase
 }
 
-.research h4{
-    color:#024046;
+.contact{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
 }
-.educate h4{
-    color:#024046;
+.fab {
+    color: azure;
 }
-.advocate h4{
-    color:#024046;
-}
-.mobilize h4{
-    color:#024046;
-}
-.intervene h4{
-    color:#024046;
-}
+
 @media only screen and (min-width: 600px){
     .mission-icon{
         width:33%
+    }
+}
+@media only screen and (min-width: 768px){
+    .mission-icon h4{
+        font-size:20px
     }
 }
 @media only screen and (min-width: 1000px){
     .mission-icon{
         width:16.6667%
     }
-}
-@media only screen and (min-width: 768px){
-    .mission-icon h4{
-        font-size:25px
-    }
-}
-@media only screen and (min-width: 1000px){
     .mission-icon h4{
         font-size:20px
     }
