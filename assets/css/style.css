@@ -16,6 +16,13 @@ body {
     background-color:#343a40;
 }
 
+.navbar-collapse {
+    z-index: 22;
+    margin: 0 auto;
+    background:#343a40;
+    float: right;
+}
+
 .navbar-brand{
     float: left;
     min-height: 55px;
@@ -95,11 +102,36 @@ body {
     color: azure;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 420px){
     .mission-icon{
-        width:33%
+        width:30%
+    }
+    
+}
+@media only screen and (min-width: 330px) and (max-width: 420px){
+    .navbar a{
+        font-size:15px;
     }
 }
+@media only screen and  (min-width: 320px) and (max-width: 400px){
+    .navbar a{
+        font-size:12px;
+    }
+    #plx {
+        font-size: small;
+    }
+    .mission-icon{
+        width:100%
+    }
+    .mission-icon h4{
+        font-size:12px
+    }
+    h2 {
+        font-size: medium;
+        font-weight: bold;
+    }
+}
+
 @media only screen and (min-width: 768px){
     .mission-icon h4{
         font-size:20px
