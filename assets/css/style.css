@@ -1,8 +1,7 @@
 body {
     padding-top: 70px;
     font-family: 'Lato',sans-serif;
-    background-color: black;
-    /* background-image: "assets/images/ffp.jpg"; */
+    background-color:#343a40;
 }
 
 .navbar-brand{
@@ -11,17 +10,29 @@ body {
     padding: 15px 15px 5px;
 }
 .dropdown-menu{
-    background: rgba(64, 104, 106, 0.5);
+    background:#343a40;
 }
 
-  .navbar{
-    background:rgba(64, 104, 106, 0.5);
-  }
+.navbar{
+    background:#343a40;
+}
 
-  .navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,.8);
-    }
-    .about{
+}
+
+.carousel-item img{
+    width: 100vw;
+    height: 90vh;
+}
+
+/* .carousel-item img{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    display: block;
+} */
+.about{
         padding: 50px 20px;
     }
     .fab {
@@ -43,15 +54,6 @@ body {
     font-weight: bold;
 }
 
-.d-block{
-    height: 90vh;
-}
-
-
-#whatWeDo{
-    height: 700px;
-    background-color: #21ddfb;
-}
 .whatWeDo{
     position: relative;
     width: 100vh;
@@ -82,7 +84,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 #volunteer{
