@@ -106,11 +106,23 @@ body {
     .mission-icon{
         width:30%
     }
+    card-img-top {
+        height: 11vw;
+    }
+    .card1{
+        margin-bottom: 250px !important;
+    }
     
 }
 @media only screen and (min-width: 330px) and (max-width: 420px){
     .navbar a{
         font-size:15px;
+    }
+    card-img-top {
+        height: 11vw;
+    }
+    .card1{
+        margin-bottom: 250px !important;
     }
 }
 @media only screen and  (min-width: 320px) and (max-width: 400px){
@@ -130,11 +142,27 @@ body {
         font-size: medium;
         font-weight: bold;
     }
+    card-img-top {
+        height: 19vw;
+    }
+    .card1{
+        margin-bottom: 250px !important;
+    }
+}
+
+.card-img-top {
+    object-fit: cover;
 }
 
 @media only screen and (min-width: 768px){
     .mission-icon h4{
         font-size:20px
+    }
+    .card-img-top {
+        height: 16vw;
+    }
+    .card{
+        margin-bottom: 250px;
     }
 }
 @media only screen and (min-width: 1000px){
@@ -144,7 +172,15 @@ body {
     .mission-icon h4{
         font-size:20px
     }
+    .card-img-top {
+        height: 13vw;
+    }
+    .card{
+        margin-bottom: 250px;
+    }
 }
 #card{
     border: 2px solid white;
 }
+
+
