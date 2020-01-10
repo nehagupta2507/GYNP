@@ -155,6 +155,9 @@ body {
 }
 
 @media only screen and (min-width: 768px){
+    .navbar a{
+        font-size:12px;
+    }
     .mission-icon h4{
         font-size:20px
     }
@@ -182,5 +185,9 @@ body {
 #card{
     border: 2px solid white;
 }
-
+.active{
+    font-size: 30px;
+    color: red;
+    border-bottom: 5px solid red;
+  }
 

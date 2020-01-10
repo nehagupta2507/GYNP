@@ -1,6 +1,5 @@
 $(document).ready(function(){
-    $('a').click(function(){
-        $('a').removeClass("active");
+    $('nav ul a').click(function(){
         $(this).addClass("active");
     });
     $('#myCarousel').carousel({
