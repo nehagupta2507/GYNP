@@ -154,7 +154,7 @@ body {
     object-fit: cover;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 1000px){
     .navbar a{
         font-size:12px;
     }
@@ -169,9 +169,12 @@ body {
     }
 }
 @media only screen and (min-width: 1000px){
+    .navbar a{
+        font-size:18px;
+    }
     .mission-icon{
         width:16.6667%
-    }
+    }   
     .mission-icon h4{
         font-size:20px
     }
@@ -185,9 +188,31 @@ body {
 #card{
     border: 2px solid white;
 }
-.active{
-    font-size: 30px;
-    color: red;
-    border-bottom: 5px solid red;
+.current{
+    background-color: green;
   }
 
+  .thumbnail {
+    position: relative;
+    margin-top: 1rem;
+   
+}
+
+.caption {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#contact-page{
+    background-color: #F9FFFD;
+}
+.btn-submit{
+    background-color: #52BEE8;
+}
+#contact li a{
+        text-decoration:none;
+        color: black; 
+}
