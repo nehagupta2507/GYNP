@@ -14,58 +14,96 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-          <span> </span>
-          <span> </span>
-          <span> </span>
-       </button>
-        <a class="navbar-brand" href="index.html">
-          Global Youth Network for Peace <i class="hidden-sm-down fa fa-star-o"></i>
-        </a>
-        <div class="collapse navbar-collapse" id="collapsingNavbar">
-          <ul class="nav navbar-nav">
+<body id="event">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=443271375714375";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    
+    jQuery(document).ready(function($) {
+      $(window).bind("load resize", function(){  
+      setTimeout(function() {
+      var container_width = $('#container').width();    
+        $('#container').html('<div class="fb-page" ' + 
+        'data-href="https://www.facebook.com/globalyouthnetworkforpeace"' +
+        ' data-width="' + container_width + '" data-tabs="events" data-small-header="false" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/globalyouthnetworkforpeace"><a href="https://www.facebook.com/globalyouthnetworkforpeace">GYNP</a></blockquote></div></div>');
+        FB.XFBML.parse( );    
+      }, 100);  
+    }); 
+    });
+    </script>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <a class="navbar-brand" id= "brand" href="index.html">Global Youth Network for Peace</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapsingNavbarSm">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="programs.html">CORE PROGRAMS</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="involved.html">GET INVOLVED</a>
-          </li>
-
-          <li class="nav-item">
-              <a class="nav-link" href="events.html">EVENTS</a>
-          </li>
-        
-          <li class="nav-item">
-            <a class="nav-link" href="achieves.html">Our Work</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="blogs.html">News & Blogs</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT US</a>
-          </li>
-          </ul>
-      </div>
-      </nav>
-      <section id="plx" class="img-fluid">
-        <div class="container">
-          <div class="text-center about" >
-            <div id="wrapper">
-                <h2>About US</h2>
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            Global Youth Network for Peace (GYNP) is a global membership association of peacebuilding organizations, professionals and a network of people developing processes for change in the most complex, chaotic conflict environments in Sierra Leone and around the world.
-                        </p>
-                        <p>
-                            We are a peacebuilding Nonprofit-Non-Governmental Organization working with and supporting people at the heart of conflicts who are striving to find solutions to peace and security related issues. We work with them to deepen our collective understanding of the conflict, bring together divided communities and create opportunities for them to resolve their differences peacefully.
-                        </p>
-                    </div>
-                </div>
-            </div>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="events.html">EVENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="achieves.html">ACHIEVEMENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+          </ul>  
         </div>
-      </section>
-</body>
+      </nav>
+      <h2 class="text-center mt-3">Our upcoming events</h2>
+      <div id="container" style="width:100%;">  
+        <div class="fb-page" 
+            data-href="https://www.facebook.com/globalyouthnetworkforpeace" 
+            data-tabs="events" 
+            data-small-header="false" 
+            data-adapt-container-width="true" 
+            data-hide-cover="true" 
+            data-show-facepile="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/globalyouthnetworkforpeace">
+                <a href="https://www.facebook.com/globalyouthnetworkforpeace">GYNP</a>
+              </blockquote>
+            </div>
+        </div>
+      </div>
+      <!-- footer part -->
+  <div class="footer fixed-bottom mt-5">
+    <div class="container-fluid bg-dark text-white">
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-4" style="font-size:2.5em; margin-top:10px; color: azure;">
+          <ul>
+            <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="https://www.facebook.com/Global-Youth-Network-for-Peace- 108513297342534"><i class="fab fa-facebook-square"></i></a></li>
+            <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="https://twitter.com/GlobalYouthNet2?s=08"><i class="fab fa-twitter-square"></i></a></li>
+            <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="Global youth Network for Peace"><i class="fab fa-linkedin"></i></a></li>
+            <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="Global youth Network for Peace"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-sm-4" style="font-size:13px; margin-top:20px;">
+          <center><b>© Copyright 2020 Global Youth Network for Peace, Freetown Sierra Leone. All Rights Reserved</b></center>
+        </div>  
+        <div class="col-sm-4" style="margin-top:20px;">
+          <center>
+          <span>
+            <i class="fas fa-laptop-code"></i>
+          </span>
+          with <i class="fa fa-heart heart"></i> by
+          <a href="https://www.ngcodes.com" style="color: azure">Neha Gupta</a> 
+          </center>
+        </div>
+      </div>
+      <br>
+    </div>
+  </body>
 </html>
