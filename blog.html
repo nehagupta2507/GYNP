@@ -1,32 +1,22 @@
 ---
 layout: default
 ---
-
 <section>
-  <div class="container mt-4 mb-4">
+  <div class="container">
     <div class="row">
       <div class="text-center">
         <ul style="list-style-position: inside">
            {% for post in site.posts %}
-             <li id="post">
+             <li>
                <header class="post-header">
                 <h1 class="post-title">{{ page.title }}</h1>
                 - {{ post.date | date: "%d %B %Y" }}
-              </header> 
-              {% if content contains '<!--more-->' %}
-              <div>
-                {{ content | split:'<!--more-->' | first }}
-              </div>
-              <input type="checkbox" class="read-more-state" id="{{ page.url }}"/>
-              <div class="read-more">
-                {{ content | split:'<!--more-->' | last }}
-              </div>
-              <label for="{{ page.url }}" class="read-more-trigger"></label>
-              {% else %}
+              </header>  
+              <article class="post-content">
                 {{ content }}
-              {% endif %} 
-           {% endfor %} 
-          </li>
+              </article>
+             </li>
+           {% endfor %}
         </ul>
         
       </div>
