@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
   }
-  
   *,
   *::before,
   *::after {
@@ -10,36 +9,35 @@ html {
 ul{
     list-style-type: none;
 }
-
 body {
     font-family: 'Lato',sans-serif;
-    background-color:#343a40;
+    background-color:#ffffffd7;
 }
-
+/* Navbar styling */
 .navbar-collapse {
-    z-index: 22;
+    z-index: 2;
     margin: 0 auto;
-    background:#343a40;
+    background:#ffffffd7;
     float: right;
 }
-
 .navbar-brand{
     float: left;
     min-height: 55px;
     padding: 15px 15px 5px;
+    color: black;
 }
-
-
+.navbar-dark .navbar-brand {
+    color: black;
+}
 .navbar{
-    background:#343a40;
     height: 10vh;
+    color: black;
 }
-
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255,255,255,.85);
+    color: black;
 }
 .dropdown-menu{
-    background: rgba(255,255,255,.85);
+    background:#d4d8db;
 }
 
 .carousel-item img{
@@ -239,5 +237,45 @@ body {
         text-decoration:none;
         color: black; 
 }
+/* Home page Styling */
+/* Involve Page Styling */
+/* Events Page Styling */
+/* Achievement Page Styling */
+/* Blog Page Styling */
+.read-more {
+    opacity: 0;
+    max-height: 0;
+    font-size: 0;
+    transition: .25s ease;
+    display: none;
+}
+.read-more-state {
+  display: none;
+}
+.read-more-state:checked ~ .read-more {
+  opacity: 1;
+  font-size: inherit;
+  max-height: 999em;
+  display: inherit;
+}
+.read-more-state ~ .read-more-trigger:before {
+  content: 'Continue reading...';
+}
+.read-more-state:checked ~ .read-more-trigger:before {
+  content: 'Show less...';
+}
+.read-more-trigger {
+  cursor: pointer;
+  padding: 1em .5em;
+  color: #0085bd;
+  font-size: .9em;
+  line-height: 2;
+  border: 1px solid #0085bd;
+  border-radius: .25em;
+  font-weight: 500;
+  display: grid;
+  text-align: center;
+}
+/* Contact Page Styling */
 
 
