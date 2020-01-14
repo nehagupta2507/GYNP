@@ -4,11 +4,8 @@ date: 2019-01-06 00:00:00 Z
 layout: default
 ---
 
-You'll find this post in your `_posts` directory. Go ahead and edit it and re-build
-the site to see your changes. You can rebuild the site in many different ways, but
-the most common way is to run `jekyll serve`, which launches a web server and
-auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the
-convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter.
-Take a look at the source for this post to get an idea about how it works.
+#This is the first post of the page 
+![3_upscaled_illustration_x4.jpg](/uploads/3_upscaled_illustration_x4.jpg)
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+### Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
