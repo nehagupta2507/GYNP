@@ -7,7 +7,7 @@
     <title>GYNP</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/908226b5f8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -17,13 +17,13 @@
     <body>
       <!-- landing page -->
       <section id="landing-page">
-        <nav class="navbar navbar-expand-md navbar-light">
-          <a class="navbar-brand active" id= "brand" href="index.html">Global Youth Network for Peace</a> 
+        <nav class="navbar navbar-expand-md navbar-light navbar-expand-xl pmd-navbar pmd-z-depth fixed-top">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
               <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="navbar-collapse collapse" id="collapsingNavbarSm">
-            <ul class="navbar-nav list-unstyled">
+          <a class="navbar-brand active" id= "brand" href="index.html">Global Youth Network for Peace</a> 
+          <div class="navbar-collapse collapse pmd-navbar-sidebar" id="collapsingNavbarSm">
+            <ul class="navbar-nav mr-auto">
               <li class="nav-item">
                 <a class="nav-link" href="programs.html">CORE PROGRAMS</a>
               </li>
@@ -44,8 +44,8 @@
               </li>
             </ul>  
           </div>
+          <div class="pmd-sidebar-overlay"></div>
         </nav>
-     
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -283,15 +283,11 @@
         </div>
       </div>
   </section>
-  
-  
-  <section>
-    <!-- footer part -->
   <div class="footer">
     <div class="container-fluid bg-dark text-white">
-     <div class="container">
-      <div class="row">
-        <div class="col-sm-4" style="font-size:2.5em; margin-top:10px; color: azure;">
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-4 col-xs-4" style="font-size:2.5em; margin-top:10px; color: azure;">
           <ul>
             <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="https://www.facebook.com/Global-Youth-Network-for-Peace- 108513297342534"><i class="fab fa-facebook-square"></i></a></li>
             <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="https://twitter.com/GlobalYouthNet2?s=08"><i class="fab fa-twitter-square"></i></a></li>
@@ -299,21 +295,22 @@
             <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="Global youth Network for Peace"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
-        <div class="col-sm-4" style="font-size:13px; margin-top:20px;">
+        <div class="col-sm-4 col-xs-4" style="font-size:13px; margin-top:20px;">
           <center><b>© Copyright 2020 Global Youth Network for Peace, Freetown Sierra Leone. All Rights Reserved</b></center>
         </div>  
-        <div class="col-sm-4" style="margin-top:20px;">
+        <div class="col-sm-4 col-xs-4" style="margin-top:20px;">
           <center>
           <span>
             <i class="fas fa-laptop-code"></i>
           </span>
           with <i class="fa fa-heart heart"></i> by
-          <a href="https://www.ngcodes.com" target="_blank" style="color: azure">Neha Gupta</a> 
+          <a href="https://www.ngcodes.com" style="color: azure">Neha Gupta</a> 
           </center>
         </div>
+        </div>
       </div>
-      <br>
     </div>
-  </section>
+  </div>
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
   </body>
 </html>

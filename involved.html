@@ -10,17 +10,18 @@
     <script src="https://kit.fontawesome.com/908226b5f8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>   
 </head>
 <body>
-  <section id="landing-page">
-    <nav class="navbar navbar-expand-md navbar-light">
-      <a class="navbar-brand" id= "brand" href="index.html">Global Youth Network for Peace</a> 
+  <section id="involved-page">
+    <nav class="navbar navbar-expand-md navbar-light navbar-expand-xl pmd-navbar pmd-z-depth fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="collapsingNavbarSm">
-        <ul class="navbar-nav list-unstyled">
+      <a class="navbar-brand " id= "brand" href="index.html">Global Youth Network for Peace</a> 
+      <div class="navbar-collapse collapse pmd-navbar-sidebar" id="collapsingNavbarSm">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="programs.html">CORE PROGRAMS</a>
           </li>
@@ -41,13 +42,14 @@
           </li>
         </ul>  
       </div>
-    </nav>  
+      <div class="pmd-sidebar-overlay"></div>
+    </nav> 
   </section>
 
-  <section id="volunteer">
-    <br>
-    <h1 class="text-center text-white"><i>You are the Face of Peace!</i></h1>
-    <br>
+  <section class="top">
+    <div>
+      <h2 class="peace text-center"><i>You are the Face of Peace!</i></h2>
+    </div>
     <div class="container">
       <div class="card-deck">
           <div class="card card1">
@@ -55,9 +57,8 @@
               <div class="card-body">
                   <h4 class="card-title">Work with Us</h4>
                   <p class="card-text">
-                    Every year, Global Youth Network for Peace recruits valuable volunteers who help its 
-                    administrative team in serving humanity. Continue visiting this page for the next volunteer 
-                    recruitment announcement.
+                    Every year, Global Youth Network for Peace recruits valuable <a href="#membership">Members</a>, <a href="#volunteer">Volunteers</a> , <a href="#expert">Experts</a> and <a href="#jobs">Workers</a> who help its 
+                    administrative team in serving humanity. 
                   </p>
               </div>
           </div>
@@ -100,11 +101,523 @@
       </div>
     </div>
   </section>
+  <section >
+      <div>
+        <h2 class="peace text-center"><i>GALVANIZING A MOVEMENT</i></h2>
+      </div>
+      <div class="container">
+        <div class="row" id="jobs">
+          <div class="col-sm-12 col-md-12">
+            <h4 class="subHead text-center">Job Vacancies</h4>
+            <p>Thank you for visiting this page, we are currently not hiring new staff, continue visiting the page for 
+              subsequent job advertisements that we will place here.</p>
+          </div>
+        </div>
+        <div class="row" id="membership">
+            <div class="col-sm-12 col-md-12">
+              <h4 class="subHead text-center">Become a Member/Join Our Network</h4>
+              <p>
+                We are working to build a large-scale constituency of 2,000,000 peace advocates by 2030
+                around the world. We work with individuals, institutions and groups working for peace
+                and development by taking actions to "<i><b>Be the Peace</b></i>" we are advocating for.
+                To better serve the field, we also work with special focus to help strengthen and grow
+                coalitions and alliances among like-minded groups and organizations.
+              </p>
+            </div>
+            <div class="col-sm-12 col-md-12">
+              <h4><i>Membership Description</i></h4>
+              <p>
+                Membership in this organization is also open to all those who care about, have an interest
+                in, or wish to make contributions to help Global Youth Network for Peace foster a culture
+                of peace among, between and within nations of the world.
+              </p>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingIm">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseIm" aria-expanded="true" aria-controls="collapseIm">
+                      Individual Membership
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseIm" class="collapse" aria-labelledby="headingIm" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>
+                      Individual Membership at Global Youth Network for Peace is attained when a single
+                      individual secure a membership form at our membership directorate at the cost of $ 5
+                      United States Dollars, complete and submit to the directorate. Our membership
+                      directorate does all validations and approve with an official letter confirming your
+                      membership status with us. Your data is then entered into our membership database.
+                    </p>
+                    <ol class="list-group list-group-roman">
+                      <p>
+                        At a membership orientation/inaugural ceremony, all persons that hold Individual
+                        Membership Category with us are presented with the following benefits: 
+                      </p>
+                      <li class="list-group-item">GYNP Organizational Profile Handbook.</li>
+                      <li class="list-group-item">GYNP Official Membership T. Shirt.</li>
+                      <li class="list-group-item">GYNP Official Membership Identification Card.</li>
+                      <li class="list-group-item">GYNP Official Universal Serial Identification Code.</li>
+                      <li class="list-group-item">Gain recognition as a member of an international network of leaders, experts,
+                          professionals, practitioners, students and organizations who are dedicated to
+                          fostering a culture of peace around the world, and whose united voice is heard
+                          within the international community.
+                      </li>
+                      <li class="list-group-item">Opportunity for enrollment into the GYNP School of Technology programs at a
+                        reduced cost.</li>
+                      <li class="list-group-item">Networking opportunities.</li>
+                      <li class="list-group-item">Automatic admission to the GYNP conferences, seminars, workshops, panel
+                        discussions, lectures, roundtables, and many other events, at a reduced fee.</li>
+                      <li class="list-group-item">Satisfaction derived from giving back to the community through GYNP.</li>
+                    </ol>
+                    <br>
+                    <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                                ?subject=Individual Membership Form Request 
+                                &body=I would like to request an Individual Membership Form!">
+                          Request a membership form</a>
+                    </p> 
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingEm">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEm" aria-expanded="true" aria-controls="collapseEm">
+                      Executive Membership
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseEm" class="collapse" aria-labelledby="headingEm" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>
+                      Executive Membership at Global Youth Network for Peace is attained when a single
+                      individual member/professional or expert in a certain field in the society secure a
+                      membership form at our membership directorate at the cost of $ 10 United States Dollars,
+                      complete and submit to the directorate. Our membership directorate does all validations
+                      and approve with an official letter confirming your membership status with us. Your data is
+                      then entered into our membership database.                
+                    </p>
+                    <ol class="list-group list-group-roman">
+                      <p>
+                        At a membership orientation/inaugural ceremony, all persons with Executive Membership
+                        Category with us are presented with the following benefits:
+                      </p>
+                      <li class="list-group-item">GYNP Organizational Profile Handbook.</li>
+                      <li class="list-group-item">GYNP Official Membership T. Shirt.</li>
+                      <li class="list-group-item">GYNP Official Membership Identification Card.</li>
+                      <li class="list-group-item">GYNP Official Universal Serial Identification Code.</li>
+                      <li class="list-group-item">Gain recognition as a member of an international network of leaders, experts,
+                          professionals, practitioners, students and organizations who are dedicated to
+                          fostering a culture of peace around the world, and whose united voice is heard
+                          within the international community.
+                      </li>
+                      <li class="list-group-item">Opportunity for enrollment into the GYNP School of Technology programs at a
+                        reduced cost.</li>
+                      <li class="list-group-item">Networking opportunities.</li>
+                      <li class="list-group-item">Automatic admission to the GYNP conferences, seminars, workshops, panel
+                        discussions, lectures, roundtables, and many other events, at a reduced fee.</li>
+                      <li class="list-group-item">Satisfaction derived from giving back to the community through GYNP.</li>
+                      <li class="list-group-item">Eligibility to hold Executive/Managerial positions.</li>
+                      <li class="list-group-item">Access to professional development and mentorship opportunities.</li>
+                      <li class="list-group-item">Complimentary GYNP media reviews.</li>
+                      <li class="list-group-item">Opportunity to serve on the GYNP committees and working groups.</li>
+                      <li class="list-group-item">GYNP membership meetings participation and voting power on issues.</li>
+                      <li class="list-group-item">Eligible to receive GYNP mediation training, mediation services, counseling 
+                        and/or expert consultation & advisement at a reduced cost</li>
+                    </ol>
+                    <br>
+                    <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                      ?subject=Executive Membership Form Request 
+                      &body=I would like to request an Executive Membership Form!">
+                      Request a membership form</a>
+                    </p> 
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingCm">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCm" aria-expanded="true" aria-controls="collapseCm">
+                      Corporate Membership
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseCm" class="collapse" aria-labelledby="headingCm" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Corporate Membership into the Global Youth for Peace is highly restricted to the
+                      following group of individuals:
+                  </p>
+                    <ul>
+                      <li>
+                        <h4>Category A</h4>
+                        <p>Family, professional body, local associations, community alliances, networks etc.</p>
+                      </li>
+                      <li>
+                        <h4>Category B</h4>
+                        <p>School, Faith-Based institution/religious bodies/ Community Based Organizations.</p>
+                      </li>
+                      <li>
+                        <h4>Category C</h4>
+                        <p>Government and corporate agencies, Civil Society Organizations etc.</p>
+                      </li>
+                    </ul>
+                  <p>Its membership is acquired when an association, alliance or network of people secure a
+                    membership form at our membership directorate at the cost of $ 20 United States Dollars,
+                    complete and submit to the directorate. Our membership directorate does all validations
+                    and approve with an official letter confirming your membership status with us. The
+                    association’s data is then entered into our membership database.
+                  </p>
+                  <ol class="list-group list-group-roman">
+                    <p>Membership benefits into Global Youth Network for Peace include all those above for
+                      executive membership and with the following additional status:
+                    </p>
+                    <li class="list-group-item">Personalized profile page on the GYNP website with interactive
+                      networking functionalities.</li>
+                    <li class="list-group-item">Unlimited access to the GYNP online community – forums, job
+                      board, special observances.</li>
+                    <li class="list-group-item">Unlimited access to GYNP publications & resources.</li>
+                    <li class="list-group-item">Eligible to receive GYNP mediation training, mediation services,
+                      counseling and /or expert consultation & advisement at a reduced cost
+                      or fee.
+                    </li>
+                    <li class="list-group-item">Article/paper submission for publication and for presentation at the
+                      annual Youth Conference on Peace and Development as well as the
+                      Annual General Meeting.
+                    </li>
+                  </ol>
+                  <br>
+                  <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                    ?subject=Corporate Membership Form Request 
+                    &body=I would like to request a Corporate Membership Form!">
+                    Request a membership form</a>
+                  </p>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>    
+            <!-- <div class="col-sm-12 cols-md-12">
+              <h4><u>Categories of GYNP Membership</u></h4>
+              <ol class="list-group">
+                <li class="list-group-item"><a href="#im">Individual Membership</a></li>
+                <li class="list-group-item"><a href="#em">Executive Membership</a></li>
+                <li class="list-group-item"><a href="#cm">Corporate Membership</a></li>
+              </ol>
+            </div>
+            <div class="col-sm-12 cols-md-12">
+              <h4 id="im">Individual Membership</h4>
+              <p>
+                Individual Membership at Global Youth Network for Peace is attained when a single
+                individual secure a membership form at our membership directorate at the cost of $ 5
+                United States Dollars, complete and submit to the directorate. Our membership
+                directorate does all validations and approve with an official letter confirming your
+                membership status with us. Your data is then entered into our membership database.
+              </p>
+              <ol class="list-group list-group-roman">
+                <p>
+                  At a membership orientation/inaugural ceremony, all persons that hold Individual
+                  Membership Category with us are presented with the following benefits: 
+                </p>
+                <li class="list-group-item">GYNP Organizational Profile Handbook.</li>
+                <li class="list-group-item">GYNP Official Membership T. Shirt.</li>
+                <li class="list-group-item">GYNP Official Membership Identification Card.</li>
+                <li class="list-group-item">GYNP Official Universal Serial Identification Code.</li>
+                <li class="list-group-item">Gain recognition as a member of an international network of leaders, experts,
+                    professionals, practitioners, students and organizations who are dedicated to
+                    fostering a culture of peace around the world, and whose united voice is heard
+                    within the international community.
+                </li>
+                <li class="list-group-item">Opportunity for enrollment into the GYNP School of Technology programs at a
+                  reduced cost.</li>
+                <li class="list-group-item">Networking opportunities.</li>
+                <li class="list-group-item">Automatic admission to the GYNP conferences, seminars, workshops, panel
+                  discussions, lectures, roundtables, and many other events, at a reduced fee.</li>
+                <li class="list-group-item">Satisfaction derived from giving back to the community through GYNP.</li>
+              </ol>
+              <br>
+              <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                          ?subject=Individual Membership Form Request 
+                          &body=I would like to request an Individual Membership Form!">
+                          Request a membership form</a>
+              </p>   
+            </div>
+            <div class="col-sm-12 cols-md-12">
+              <h4 id="em">Executive Membership</h4>
+              <p>
+                Executive Membership at Global Youth Network for Peace is attained when a single
+                individual member/professional or expert in a certain field in the society secure a
+                membership form at our membership directorate at the cost of $ 10 United States Dollars,
+                complete and submit to the directorate. Our membership directorate does all validations
+                and approve with an official letter confirming your membership status with us. Your data is
+                then entered into our membership database.                
+              </p>
+              <ol class="list-group list-group-roman">
+                <p>
+                  At a membership orientation/inaugural ceremony, all persons with Executive Membership
+                  Category with us are presented with the following benefits:
+                </p>
+                <li class="list-group-item">GYNP Organizational Profile Handbook.</li>
+                <li class="list-group-item">GYNP Official Membership T. Shirt.</li>
+                <li class="list-group-item">GYNP Official Membership Identification Card.</li>
+                <li class="list-group-item">GYNP Official Universal Serial Identification Code.</li>
+                <li class="list-group-item">Gain recognition as a member of an international network of leaders, experts,
+                    professionals, practitioners, students and organizations who are dedicated to
+                    fostering a culture of peace around the world, and whose united voice is heard
+                    within the international community.
+                </li>
+                <li class="list-group-item">Opportunity for enrollment into the GYNP School of Technology programs at a
+                  reduced cost.</li>
+                <li class="list-group-item">Networking opportunities.</li>
+                <li class="list-group-item">Automatic admission to the GYNP conferences, seminars, workshops, panel
+                  discussions, lectures, roundtables, and many other events, at a reduced fee.</li>
+                <li class="list-group-item">Satisfaction derived from giving back to the community through GYNP.</li>
+                <li class="list-group-item">Eligibility to hold Executive/Managerial positions.</li>
+                <li class="list-group-item">Access to professional development and mentorship opportunities.</li>
+                <li class="list-group-item">Complimentary GYNP media reviews.</li>
+                <li class="list-group-item">Opportunity to serve on the GYNP committees and working groups.</li>
+                <li class="list-group-item">GYNP membership meetings participation and voting power on issues.</li>
+                <li class="list-group-item">Eligible to receive GYNP mediation training, mediation services, counseling 
+                  and/or expert consultation & advisement at a reduced cost</li>
+              </ol>
+              <br>
+              <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                ?subject=Executive Membership Form Request 
+                &body=I would like to request an Executive Membership Form!">
+                Request a membership form</a>
+              </p> 
+
+            </div>
+            <div class="col-sm-12 cols-md-12">
+              <h4 id="cm">Corporate Membership</h4>
+              <p>Corporate Membership into the Global Youth for Peace is highly restricted to the
+                  following group of individuals:
+              </p>
+                <ul>
+                  <li>
+                    <h4>Category A</h4>
+                    <p>Family, professional body, local associations, community alliances, networks etc.</p>
+                  </li>
+                  <li>
+                    <h4>Category B</h4>
+                    <p>School, Faith-Based institution/religious bodies/ Community Based Organizations.</p>
+                  </li>
+                  <li>
+                    <h4>Category C</h4>
+                    <p>Government and corporate agencies, Civil Society Organizations etc.</p>
+                  </li>
+                </ul>
+              <p>Its membership is acquired when an association, alliance or network of people secure a
+                membership form at our membership directorate at the cost of $ 20 United States Dollars,
+                complete and submit to the directorate. Our membership directorate does all validations
+                and approve with an official letter confirming your membership status with us. The
+                association’s data is then entered into our membership database.
+              </p>
+              <ol class="list-group list-group-roman">
+                <p>Membership benefits into Global Youth Network for Peace include all those above for
+                  executive membership and with the following additional status:
+                </p>
+                <li class="list-group-item">Personalized profile page on the GYNP website with interactive
+                  networking functionalities.</li>
+                <li class="list-group-item">Unlimited access to the GYNP online community – forums, job
+                  board, special observances.</li>
+                <li class="list-group-item">Unlimited access to GYNP publications & resources.</li>
+                <li class="list-group-item">Eligible to receive GYNP mediation training, mediation services,
+                  counseling and /or expert consultation & advisement at a reduced cost
+                  or fee.
+                </li>
+                <li class="list-group-item">Article/paper submission for publication and for presentation at the
+                  annual Youth Conference on Peace and Development as well as the
+                  Annual General Meeting.
+                </li>
+              </ol>
+              <br>
+              <p><a href="mailto:globalyouthnetworkforpeace@gmail.com
+                ?subject=Corporate Membership Form Request 
+                &body=I would like to request a Corporate Membership Form!">
+                Request a membership form</a>
+              </p> 
+            </div> -->
+        </div>
+        <div class="row" id="volunteer">
+          <div class="col-sm-12 col-md-12">
+            <h4 class="subHead text-center">Volunteer with us</h4>
+            <p>Every year, Global Youth Network for Peace recruits valuable volunteers who help its administrative team in 
+              serving humanity. Continue visiting this page for the next volunteer recruitment announcement.</p>
+          </div>
+        </div>
+        <div class="row" id="expert">
+          <div class="col-sm-12 col-md-12">
+            <h4 class="subHead text-center">Offer Expert Service</h4>
+            <p>Whether you are a university scholar, researcher, diplomat, practitioner, or policymaker;
+              you have expertise in war, ethnic conflict, ethnic studies, sectarian conflict, racial conflict,
+              race and ethnicity, tribal conflict, religious conflict, religious studies, theology, interfaith
+              dialogue, pluralism, peace and conflict studies, conflict analysis and resolution, mediation,
+              dialogue, conflict prevention, conflict management, conflict transformation, alternative
+              dispute resolution, restorative justice, and peacebuilding, or related areas, disciplines and
+              sectors; and you would like to offer your expert service, knowledge and skills to journalists,
+              policymakers, governments, international institutions, regional, national and local
+              organizations, individuals and groups. We invite you to secure and complete a form from
+              our research and policy evaluation department and get listed on our expert portal as an
+              expert in conflict resolution. This opportunity is also extended to a traditional ruler, leader of 
+              indigenous people, or faith leader, and your work in your community or congregation involves civil conflict
+              resolution, mediation and dialogue, you are also invited to join our expert portal.    
+            </p>
+            <h4>Expert Service Provider Categories</h4>
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Diplomat
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    Career diplomats with expertise in ethnic conflict, tribal conflict, religious conflict, racial
+                    conflict, sectarian conflict, caste based conflict, culture based conflict, and conflict
+                    resolution.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Faith Leader
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Faith leaders whose roles in their communities or congregations include ethnic and
+                    religious conflict resolution, mediation, dialogue, and other forms of conflict resolution.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Independent Researcher
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    Independent or think tank affiliated researchers on ethnic conflict, tribal conflict, racial
+                    conflict, caste based conflict, religious conflict, sectarian conflict, culture based conflict, and
+                    conflict resolution.   
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      Leader of Indigenous People
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    Leaders of indigenous peoples whose roles in their communities include the resolution of
+                    ethnic conflict, tribal conflict, community conflict, land based dispute, inheritance conflict,
+                    culture based conflict, caste based conflict, racial conflict, religious conflict, sectarian
+                    conflict, and so on.  
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      Policymaker
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">Public policy experts whose policy making interests focus on the resolution of ethnic
+                    conflict, tribal conflict, racial conflict, religious conflict, sectarian conflict, caste based
+                    conflict, and culture based conflict.   
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Practitioner
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    Practitioners in the field of ethnic conflict, tribal conflict, racial conflict, culture based
+                    conflict, caste based conflict, religious conflict, sectarian conflict, conflict resolution and
+                    peacebuilding.   
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                      Traditional Ruler
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    Traditional rulers whose roles in their communities include the resolution of ethnic
+                    conflict, tribal conflict, community conflict, land based dispute, inheritance conflict, culture
+                    based conflict, caste based conflict, racial conflict, religious conflict, sectarian conflict, and
+                    so on.        
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                      University Scholar
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                  <div class="card-body">
+                    University or academic experts in ethnic conflict, tribal conflict, racial conflict, culture
+                    based conflict, caste based conflict, religious conflict, sectarian conflict, and conflict
+                    resolution. 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="col-sm-12 col-md-12">
+              <h4>What to Expect?</h4>
+              <p>
+                After submitting the completed Expert Service Provider form, your profile will be
+                reviewed, and the information you provided will be verified. If found accurate and eligible
+                for inclusion in the Expert Service Provider portal, your expert profile will be approved the
+                same day and added on our website. If additional information is needed to determine your
+                eligibility, we will contact you. If we could not determine your qualification to be an Expert
+                in Conflict Resolution, your application will be rejected.
+              </p>
+            </div>  
+          </div>
+        </div>
+      </div>
+  </section>
   <!-- footer part -->
-  <div class="footer mt-2">
-        <div class="container-fluid bg-dark text-white">
-         <div class="container">
-          <div class="row">
+  <div class="footer mt-4">
+      <div class="container-fluid bg-dark text-white">
+          <div class="container">
+            <div class="row">
             <div class="col-sm-4" style="font-size:2.5em; margin-top:10px; color: azure;">
               <ul>
                 <li style="float: left; padding-left: 1em; padding-top: 10px;"><a href="https://www.facebook.com/Global-Youth-Network-for-Peace- 108513297342534"><i class="fab fa-facebook-square"></i></a></li>
@@ -125,9 +638,11 @@
               <a href="https://www.ngcodes.com" style="color: azure">Neha Gupta</a> 
               </center>
             </div>
+            </div>
+            <br>
           </div>
-          <br>
-        </div>
-        <script src="script.js"></script>  
+      </div>
+  </div>
+  <a id="back2Top" title="Back to top" href="#">&#10148;</a>
     </body>
    </html>

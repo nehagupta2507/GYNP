@@ -2,24 +2,23 @@
 layout: default
 ---
 
-<section>
+<section class="top">
   <div class="container">
     <div class="row">
       <div class="text-center">
         <ul style="list-style-position: inside">
            {% for post in site.posts %}
              <li>
-               <header class="post-header">
+               <header class="post-header peace">
                 <h1 class="post-title">{{ page.title }}</h1>
-                - {{ post.date | date: "%d %B %Y" }}
+                 {{ post.date | date: "%d %B %Y" }}
               </header>  
               <article class="post-content">
                 {{ content }}
               </article>
              </li>
            {% endfor %}
-        </ul>
-        
+        </ul>  
       </div>
     </div>
   </div>

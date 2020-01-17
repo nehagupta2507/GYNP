@@ -14,24 +14,19 @@ body {
     background-color:#ffffffd7;
 }
 /* Navbar styling */
-.navbar-collapse {
-    z-index: 2222;
-    background:#ffffffed;
-}
+
 .navbar-brand{
     float: left;
     min-height: 55px;
     padding: 15px 15px 5px;
-}
-.navbar{
-    height: 10vh;
-    margin-left : 25px;
-    margin-right: 25px;
-    border-bottom: 1px solid rgba(82, 79, 79, 0.603);
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
 }
 
-.dropdown-menu{
-    background:#d4d8db;
+.navbar{
+    background-color:#ffffffd3;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
 }
 
 /* Navbar styling end */
@@ -40,7 +35,7 @@ body {
 
 .carousel-item img{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 #wrapper{
@@ -61,11 +56,28 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    padding-top: 100px ;
-    padding-bottom: 100px;
+    padding-top: 50px ;
+    padding-bottom: 50px;
 }
 
 /* Home page Styling end */
+
+/* Involve Page Styling */
+.peace{
+    background-color: rgb(29, 173, 29);
+    color: white;
+    padding: 20px;
+}
+.subHead{
+    background-color: rgb(42, 105, 105);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.top{
+    margin-top: 10vh;
+}
+
+/* Involve Page Styling End*/
 
 
 .mission-icon{
@@ -100,21 +112,7 @@ body {
 .fab {
     color: azure;
 }
-/* #event{
-    background: 
-    radial-gradient(circle at 30% 94%, rgba(245, 245, 245,0.06) 0%, rgba(245, 245, 245,0.06) 50%,rgba(21, 21, 21,0.06) 50%, rgba(21, 21, 21,0.06) 100%),
-    radial-gradient(circle at 59% 19%, rgba(248, 248, 248,0.06) 0%, rgba(248, 248, 248,0.06) 50%,rgba(87, 87, 87,0.06) 50%, rgba(87, 87, 87,0.06) 100%),
-    radial-gradient(circle at 7% 11%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),
-    linear-gradient(90deg, rgb(189, 189, 189),rgb(205, 205, 205))
-}
-#contact-page{
-    background: 
-    radial-gradient(circle at 30% 94%, rgba(245, 245, 245,0.06) 0%, rgba(245, 245, 245,0.06) 50%,rgba(21, 21, 21,0.06) 50%, rgba(21, 21, 21,0.06) 100%),
-    radial-gradient(circle at 59% 19%, rgba(248, 248, 248,0.06) 0%, rgba(248, 248, 248,0.06) 50%,rgba(87, 87, 87,0.06) 50%, rgba(87, 87, 87,0.06) 100%),
-    radial-gradient(circle at 7% 11%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),
-    linear-gradient(90deg, rgb(189, 189, 189),rgb(205, 205, 205))
 
-} */
 @media only screen and (min-width: 420px){
     .mission-icon{
         width:30%
@@ -123,11 +121,14 @@ body {
         height: 11vw;
     }
     .card1{
-        margin-bottom: 250px !important;
+        margin-bottom: 50px !important;
     }
     
 }
 @media only screen and (min-width: 330px) and (max-width: 420px){
+    .navbar{
+        background:#ffffff;
+    }
     
     .navbar a{
         font-size:15px;
@@ -136,10 +137,14 @@ body {
         height: 11vw;
     }
     .card1{
-        margin-bottom: 250px !important;
+        margin-bottom: 50px !important;
     }
+   
 }
 @media only screen and  (min-width: 320px) and (max-width: 400px){
+    .navbar{
+        background:#ffffff;
+    }
   
     .navbar a{
         font-size:12px;
@@ -161,8 +166,9 @@ body {
         height: 19vw;
     }
     .card1{
-        margin-bottom: 250px !important;
+        margin-bottom: 50px !important;
     }
+    
     
 }
 
@@ -173,8 +179,7 @@ body {
 @media only screen and (min-width: 768px) and (max-width: 1000px){
     a.nav-link.active{
         border-top: 1px solid rgba(59, 58, 58, 0.979);
-    }
-    
+    }   
     .navbar a{
         font-size:12px;
     }
@@ -184,8 +189,8 @@ body {
     .card-img-top {
         height: 16vw;
     }
-    .card{
-        margin-bottom: 250px;
+    .card1{
+        margin-bottom: 50px;
     }
     #container {
             margin-left: 160px;
@@ -208,8 +213,8 @@ body {
     .card-img-top {
         height: 13vw;
     }
-    .card{
-        margin-bottom: 250px;
+    .card1{
+        margin-bottom: 50px;
     }
     #container{
         margin-left: 350px;
@@ -247,35 +252,8 @@ body {
         text-decoration:none;
         color: black; 
 }
-/* Involve Page Styling */
 /* Events Page Styling */
 /* Achievement Page Styling */
-#summary {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
-  #summary p.collapse:not(.show) {
-      height: 42px !important;
-      overflow: hidden;
-    
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;  
-  }
-  
-  #summary p.collapsing {
-      min-height: 42px !important;
-  }
-  
-  #summary a.collapsed:after  {
-      content: '+ Read More';
-  }
-  
-  #summary a:not(.collapsed):after {
-      content: '- Read Less';
-  }
-
   #back2Top {
     width: 40px;
     line-height: 40px;
