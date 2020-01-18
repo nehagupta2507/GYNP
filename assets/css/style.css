@@ -11,7 +11,6 @@ ul{
 }
 body {
     font-family: 'Lato',sans-serif;
-    background-color:#ffffffd7;
 }
 /* Navbar styling */
 
@@ -20,13 +19,11 @@ body {
     min-height: 55px;
     padding: 15px 15px 5px;
     font-family: 'Oswald', sans-serif;
-    font-size: x-large;
 }
 
 .navbar{
-    background-color:#ffffffd3;
+    background-color:#ffffff;
     font-family: 'Oswald', sans-serif;
-    font-size: x-large;
 }
 
 /* Navbar styling end */
@@ -147,7 +144,7 @@ body {
     }
   
     .navbar a{
-        font-size:12px;
+        font-size:15px;
     }
     #plx {
         font-size: small;
@@ -168,8 +165,7 @@ body {
     .card1{
         margin-bottom: 50px !important;
     }
-    
-    
+      
 }
 
 .card-img-top {
@@ -181,7 +177,7 @@ body {
         border-top: 1px solid rgba(59, 58, 58, 0.979);
     }   
     .navbar a{
-        font-size:12px;
+        font-size:16px;
     }
     .mission-icon h4{
         font-size:20px
@@ -202,7 +198,7 @@ body {
         border-top: 1px solid rgba(59, 58, 58, 0.979);
     } 
     .navbar a{
-        font-size:18px;
+        font-size:20px;
     }
     .mission-icon{
         width:16.6667%
@@ -228,7 +224,7 @@ body {
     background-color: green;
   }
 
-  .thumbnail {
+.thumbnail {
     position: relative;
     margin-top: 1rem;
    
@@ -268,7 +264,7 @@ body {
     transform: rotate(270deg);
     position: fixed;
     bottom: 50px;
-    right: 10px;
+    right: 20px;
     background-color: #DDD;
     color: #555;
     text-align: center;
@@ -278,6 +274,10 @@ body {
 #back2Top:hover {
     background-color: #DDF;
     color: #000;
+}
+.smallHead{
+    background-color: dimgrey;
+    padding: 10px;
 }
     
 /* Achievement Page Styling End*/
