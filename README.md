@@ -27,52 +27,52 @@ This app features a blog page along with other static pages with a working conta
   - Jekyll
   
 ## Structure 
-.
-├── Gemfile
-├── Gemfile.lock
-├── README.md
-├── _config.yml
-├── _layouts
-│   └── default.html
-├── _posts
-│   ├── 2019-01-04-test-post.md
-│   └── 2019-01-06-first-post.md
-├── _site
-│   ├── 2019
-│   │   └── 01
-│   │       ├── 04
-│   │       │   └── test-post.html
-│   │       └── 06
-│   │           └── first-post.html
-│   ├── README.md
-│   ├── achieves.html
-│   ├── assets
-│   │   ├── css
-│   │   │   └── style.css
-│   │   └── images
-│   ├── blog.html
-│   ├── contact.html
-│   ├── events.html
-│   ├── index.html
-│   ├── involved.html
-│   ├── programs.html
-│   ├── script.js
-│   ├── siteicon.png
-│   └── uploads
-├── _uploads
-├── achieves.html
-├── assets
-│   ├── css
-│   │   └── style.css
-│   └── images
-├── blog.html
-├── contact.html
-├── events.html
-├── index.html
-├── involved.html
-├── programs.html
-├── script.js
-└── siteicon.png
+.  
+├── Gemfile  
+├── Gemfile.lock  
+├── README.md  
+├── _config.yml  
+├── _layouts  
+│   └── default.html  
+├── _posts  
+│   ├── 2019-01-04-test-post.md  
+│   └── 2019-01-06-first-post.md  
+├── _site  
+│   ├── 2019  
+│   │   └── 01  
+│   │       ├── 04  
+│   │       │   └── test-post.html  
+│   │       └── 06  
+│   │           └── first-post.html  
+│   ├── README.md  
+│   ├── achieves.html  
+│   ├── assets  
+│   │   ├── css  
+│   │   │   └── style.css  
+│   │   └── images  
+│   ├── blog.html  
+│   ├── contact.html  
+│   ├── events.html  
+│   ├── index.html  
+│   ├── involved.html  
+│   ├── programs.html  
+│   ├── script.js  
+│   ├── siteicon.png  
+│   └── uploads  
+├── _uploads  
+├── achieves.html  
+├── assets  
+│   ├── css  
+│   │   └── style.css  
+│   └── images  
+├── blog.html  
+├── contact.html  
+├── events.html  
+├── index.html  
+├── involved.html  
+├── programs.html  
+├── script.js  
+└── siteicon.png  
   
 ## Screenshots
 <p align="center">
